@@ -1,0 +1,64 @@
+#right-align {
+  text-align: right;
+}
+
+#left-align {
+  text-align: left;
+}
+
+#center-align {
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.column {
+  flex: 1;
+  padding: 30px;
+  border: 1px;
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 100px;
+}
+
+#title-text {
+  font-size: 20px;
+  margin: 100;
+  padding: 5;
+  border: 10;
+}
+
+#text-size {
+  font-size: 15px;
+  margin: 10;
+  padding: 10;
+  border: 0;
+}
+
+
+
+
+
+.top-text-left {
+  vertical-align: top;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+
+}
+
+.top-text-right {
+  vertical-align: top;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
